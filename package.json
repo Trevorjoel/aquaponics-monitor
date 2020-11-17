@@ -1,0 +1,23 @@
+{
+  "name": "aquaponics-monitor",
+  "version": "1.0.0",
+  "description": "Aquaponics water quality monitor",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trevorjoel/aquaponics-monitor.git"
+  },
+  "keywords": [
+    "aquaponics"
+  ],
+  "author": "Trevor Garrity",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Trevorjoel/aquaponics-monitor/issues"
+  },
+  "homepage": "https://github.com/Trevorjoel/aquaponics-monitor#readme"
+}
