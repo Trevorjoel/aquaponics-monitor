@@ -1,5 +1,5 @@
 import express from 'express';
-
+import connection from './models/DbConnect';
 import router from './routes/api/index';
 import bodyParser from 'body-parser';
 const expressValidator = require('express-validator');
@@ -15,7 +15,6 @@ app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });
-
 // Use middleware
 /*
 
