@@ -10,13 +10,8 @@ let createConnection = mysql.createConnection({
 });
 
 createConnection.connect((err) => {
-
-        console.log('Aquaponics db connected....')
+        console.log(`Connected to DB: "${keys.DB.DATABASE}" on PORT: "${keys.DB.PORT}".`)
         if (err) throw err;
-            createConnection.query(`SELECT * FROM readings ORDER BY id DESC LIMIT 10 , 10 `,function (err, result, fields) {
-                if (err) throw err;
-                console.log(result);
-            });
 });
 
 

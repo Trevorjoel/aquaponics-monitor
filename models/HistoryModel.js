@@ -1,10 +1,13 @@
 const sqlAquaponics = require('.//DbConnect');
-
+/*
+* Modeled data relating to the Historic readings!
+* */
 sqlAquaponics.query(`SELECT date_time, id FROM readings ORDER BY id DESC LIMIT 0 , 1 `,
     (err, res) => {
         if (err) {
-            result(err, null);
+            console.log(err, null);
         } else {
-            result(null, res);
+            console.log(null, res);
         }
+
     });

@@ -7,7 +7,7 @@ const app = express();
 
 const port = process.env.PORT || 5000;
 
-app.listen(port, () => console.log(`(back-end) LISTENING on port ${port}`));
+app.listen(port, () => console.log(`Node server: LISTENING on port ${port}`));
 
 // Enable Cors
 app.use(function(req, res, next) {
@@ -16,9 +16,8 @@ app.use(function(req, res, next) {
     next();
 });
 // Use middleware
-/*
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 //Import routes
-app.use(router);*/
+app.use(router);
