@@ -1,5 +1,4 @@
 import express from 'express';
-import connection from './models/DbConnect';
 import router from './routes/api/index';
 import bodyParser from 'body-parser';
 const expressValidator = require('express-validator');
