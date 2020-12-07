@@ -1,0 +1,30 @@
+@import "src/variables";
+.Button {
+    background-color: $light-green;
+    border: none;
+    border-radius: 30px;
+    color: $dark-blue;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px 35px;
+    margin: 10px 0px;
+
+    min-height: 48px;
+}
+
+.Button:disabled{
+    color: #ccc;
+    cursor: not-allowed
+}
+
+.Button:hover{
+    color: $mid-blue;
+}
+.Success {
+    color: $dark-blue;
+}
+
+.Danger {
+    color: #944317;
+}
