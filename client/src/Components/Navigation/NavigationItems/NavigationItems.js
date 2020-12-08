@@ -5,14 +5,15 @@ const navigationItems = (props) => (
     <ul className={classes.NavigationItems}>
 
         {/*When Authenticated*/}
-        {props.isAuthenticated ?
-            <NavigationItem exact link="/settings" >Settings</NavigationItem>
-            : null}
+
         {props.isAuthenticated ?
             <NavigationItem exact link="/history" >History</NavigationItem>
             : null}
         {props.isAuthenticated ?
             <NavigationItem exact link="/advice" >Advice</NavigationItem>
+            : null}
+        {props.isAuthenticated ?
+            <NavigationItem exact link="/settings" >Settings</NavigationItem>
             : null}
 
        {/*When Not*/}

@@ -1,3 +1,4 @@
+@import '../../variables';
 .Logo{
   padding:8px;
   height:100%;
@@ -6,4 +7,15 @@
 }
 .Logo img{
   height:100%;
+}
+
+
+.Logo img:hover,
+.Logo img:active {
+  background-color: $mid-blue;
+ border: 2px solid #fff;
+  color: white;
+  border-radius: 50px 50px 50px 50px;
+  padding: 5px;
+  height:120%;
 }
