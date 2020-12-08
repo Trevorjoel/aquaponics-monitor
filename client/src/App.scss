@@ -9,6 +9,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-bottom: 60px;
 }
 
 .App-logo {
@@ -24,7 +25,7 @@
 
 .App-header {
   background-color: $dark-blue;
-  min-height: 40vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;

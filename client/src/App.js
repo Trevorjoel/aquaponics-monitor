@@ -14,10 +14,10 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <Layout>
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo"/>
                 </header>
+                <Layout>
                     <Switch>
                         <Route path="/" exact component={Home}/>
                         <Route path="/set-up" exact component={SignUp}/>

@@ -5,6 +5,9 @@ const navigationItems = (props) => (
     <ul className={classes.NavigationItems}>
 
         {/*When Authenticated*/}
+        {props.isAuthenticated ?
+            <NavigationItem exact link="/" >System</NavigationItem>
+            : null}
 
         {props.isAuthenticated ?
             <NavigationItem exact link="/history" >History</NavigationItem>
