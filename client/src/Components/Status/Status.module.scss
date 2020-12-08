@@ -1,0 +1,17 @@
+@import '../../variables';
+.Overview{
+  background: white;
+  border: 1px solid white;
+  min-height: 300px;
+  width: 600px;
+  max-width: 600px;
+  border-radius: 0px 0px 20px 20px
+}
+
+.Top {
+  background: $light-blue;
+  height: 70px;
+  padding: 10px 0px 0px 0px;
+  margin: 0px;
+  border-radius: 20px 20px 0 0;
+}

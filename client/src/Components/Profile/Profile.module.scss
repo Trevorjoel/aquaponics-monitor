@@ -1,0 +1,22 @@
+@import '../../variables';
+.Overview{
+  background: $white;
+  border: 1px solid white;
+  //min-height: 500px;
+  width: 600px;
+  max-width: 600px;
+  border-radius: 0 0 $standard-radius $standard-radius;
+}
+.Overview p{
+  color: black;
+}
+.Top {
+  background: $light-blue;
+  height: 70px;
+  padding: 10px 0px 0px 0px;
+  margin: 0px;
+  border-radius: $standard-radius $standard-radius 0 0;
+}
+.Overview .Link {
+  color: $light-blue;
+}
